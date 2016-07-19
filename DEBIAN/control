@@ -1,0 +1,12 @@
+Package: oom-py
+Version: 1.7.2
+License: MIT
+Vendor: ONL
+Architecture: powerpc
+Maintainer: <steven.noble@bigswitch.com>
+Installed-Size: 121
+Section: default
+Priority: extra
+Depends: oom-shim, python-setuptools
+Homepage: http://www.opencompute.org/wiki/Networking/SpecsAndDesigns#Common_Module_Interface
+Description: Open Optical Monitoring - This is a project to make the contents of optical module EEPROM accessible to python programmers. This allows a python programmer to query the value of dozens of keys (serial Number, module type, temperature, transmit power, ...), for the optical module in each port of a switch. In addition to key/value read access, the OOM project also supports key/value write to a limited number of EEPROM locations, and raw read/write access directly to EEPROM.
